@@ -1,3 +1,6 @@
+body {
+  max-width: 800px;
+}
 .container {
   height: 100vh;
   background-color: #545454;
@@ -100,7 +103,7 @@
  * animation shadow-drop-2-br
  * ----------------------------------------
  */
-@-webkit-keyframes shadow-drop-2-br {
+/* @-webkit-keyframes shadow-drop-2-br {
   0% {
     -webkit-transform: translateZ(0) translateX(0) translateY(0);
     transform: translateZ(0) translateX(0) translateY(0);
@@ -113,7 +116,7 @@
     -webkit-box-shadow: 12px 12px 20px -12px rgba(0, 0, 0, 0.35);
     box-shadow: 12px 12px 20px -12px rgba(0, 0, 0, 0.35);
   }
-}
+} */
 @keyframes shadow-drop-2-br {
   0% {
     -webkit-transform: translateZ(0) translateX(0) translateY(0);
